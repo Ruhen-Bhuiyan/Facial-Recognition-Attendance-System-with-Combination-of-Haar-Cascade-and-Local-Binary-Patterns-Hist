@@ -1,0 +1,1 @@
+# Facial-Recognition-Attendance-System-with-Combination-of-Haar-Cascade-and-Local-Binary-Patterns-Hist
