@@ -4,7 +4,6 @@
 import mysql.connector
 import cv2, sys, numpy, os 
 haar_file = 'haarcascade_frontalface_default.xml'
-  
 # All the faces data will be 
 #  present this folder 
 datasets = 'datasets'  
