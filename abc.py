@@ -7,12 +7,9 @@ haar_file = 'haarcascade_frontalface_default.xml'
 # All the faces data will be 
 #  present this folder 
 datasets = 'datasets'  
-
 #Entering User ID
-uid=input('Enter Student ID\n')
-  
+uid=input('Enter Student ID\n') 
 # These are sub data sets of folder,  
-
 # change the label here 
 sub_data = uid     
 path = os.path.join(datasets, sub_data) 
@@ -20,13 +17,9 @@ if not os.path.isdir(path):
     os.mkdir(path)  
 # defining the size of images  
 (width, height) = (130, 100) 
-
 faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-
 video_capture = cv2.VideoCapture(0)
-
 img_counter = 0
-
 while True:
     # Capture frame-by-frame
     ret, frame = video_capture.read()
