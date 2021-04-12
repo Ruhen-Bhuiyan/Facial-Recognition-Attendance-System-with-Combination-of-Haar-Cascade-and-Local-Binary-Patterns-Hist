@@ -1,6 +1,4 @@
-# Creating database 
-# It captures images and stores them in datasets  
-# folder under the folder name of sub_data
+
 import mysql.connector
 import cv2, sys, numpy, os 
 haar_file = 'haarcascade_frontalface_default.xml'
